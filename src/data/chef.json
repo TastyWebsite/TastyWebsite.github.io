@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "chef1": "Thomas Smith",
+    "chef2": "Head Chef",
+    "img8": "https://preview.colorlib.com/theme/tasty/images/chef-1.jpg",
+    "name": "chef"
+  },
+  {
+    "id": "2",
+    "chef1": "Francis Gibson",
+    "chef2": "Assistant Chef",
+    "img8": "https://preview.colorlib.com/theme/tasty/images/chef-2.jpg",
+    "name": "chef"
+  },
+  {
+    "id": "3",
+    "chef1": "Angelo Maestro",
+    "chef2": "Assistant Chef",
+    "img8": "https://preview.colorlib.com/theme/tasty/images/chef-3.jpg",
+    "name": "chef"
+  }
+]
