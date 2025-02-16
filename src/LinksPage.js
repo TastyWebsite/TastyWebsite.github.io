@@ -33,22 +33,22 @@ function LinksPage(props) {
                         </li>
                         {show ?
                             <ul className={"mi1"}>
-                                <li className={"li1"}><Link to={'/'}  className={"link"}>Home</Link></li>
-                                <li className={"li1"}><Link to={'/menu'} className={"link"}>Menu</Link></li>
-                                <li className={"li1"}><Link to={'/specialties'} className={"link"}>Specialties</Link></li>
-                                <li className={"li1"}><Link to={'/reservation'} className={"link"}>Reservation</Link></li>
-                                <li className={"li1"}><Link to={'/blog'} className={"link"}>Blog</Link></li>
-                                <li className={"li1"}><Link to={'/about'} className={"link"}>About</Link></li>
-                                <li className={"li1"}><Link to={'/contact'} className={"link"}>Contact</Link></li>
+                                <li className={"li1"}><Link to={'/'}  className={"link"} reloadDocument >Home</Link></li>
+                                <li className={"li1"}><Link to={'/menu'} className={"link"} reloadDocument >Menu</Link></li>
+                                <li className={"li1"}><Link to={'/specialties'} className={"link"} reloadDocument >Specialties</Link></li>
+                                <li className={"li1"}><Link to={'/reservation'} className={"link"} reloadDocument >Reservation</Link></li>
+                                <li className={"li1"}><Link to={'/blog'} className={"link"} reloadDocument >Blog</Link></li>
+                                <li className={"li1"}><Link to={'/about'} className={"link"} reloadDocument >About</Link></li>
+                                <li className={"li1"}><Link to={'/contact'} className={"link"} reloadDocument >Contact</Link></li>
                             </ul>
                             :null}
-                    <li className={"li"}><Link to={'/home'} className={"link"}>Home</Link></li>
-                    <li className={"li"}><Link to={'/menu'} className={"link"}>Menu</Link></li>
-                    <li className={"li"}><Link to={'/specialties'} className={"link"}>Specialties</Link></li>
-                    <li className={"li"}><Link to={'/reservation'} className={"link"}>Reservation</Link></li>
-                    <li className={"li"}><Link to={'/blog'} className={"link"}>Blog</Link></li>
-                    <li className={"li"}><Link to={'/about'} className={"link"}>About</Link></li>
-                    <li className={"li"}><Link to={'/contact'} className={"link"}>Contact</Link></li>
+                    <li className={"li"}><Link to={'/home'} className={"link"} reloadDocument >Home</Link></li>
+                    <li className={"li"}><Link to={'/menu'} className={"link"} reloadDocument >Menu</Link></li>
+                    <li className={"li"}><Link to={'/specialties'} className={"link"} reloadDocument >Specialties</Link></li>
+                    <li className={"li"}><Link to={'/reservation'} className={"link"} reloadDocument >Reservation</Link></li>
+                    <li className={"li"}><Link to={'/blog'} className={"link"} reloadDocument >Blog</Link></li>
+                    <li className={"li"}><Link to={'/about'} className={"link"} reloadDocument >About</Link></li>
+                    <li className={"li"}><Link to={'/contact'} className={"link"} reloadDocument >Contact</Link></li>
             </div>
 
         </ul>
