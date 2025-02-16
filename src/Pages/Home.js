@@ -19,7 +19,9 @@ function Home(props) {
             <LinksPage/>
             <Carousel
                 showArrows={true}
-                wrapMode={"wrap"}>
+                wrapMode={"wrap"}
+                autoplay={true}
+                autoplayInterval={2000}>
                 <div className={"img1"}>
                     <div className={"rgb"}>
                         <span className={"sp01"}>Book a table for yourself at a<br/> time convenient for you</span>
