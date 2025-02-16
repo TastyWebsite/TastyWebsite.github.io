@@ -49,7 +49,7 @@ function Home(props) {
                     <div className={"dd01"}>
                         <input type={"text"} placeholder={"Name"} className={"in1"}/>
                         <input type={"text"} placeholder={"Phone"} className={"in1"}/>
-                        <input type={"date"} placeholder={"Date"} className={"in1"}/>
+                        <input type={"date"} placeholder={"Date"} style={{color:"black"}} className={"in1"}/>
                         <select className={"in1"} style={{color:"black"}} onChange={() => handleTime("time")}>
                             {data.map((item) => (
                                 <optgroup key={item.id}>
