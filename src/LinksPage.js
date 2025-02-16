@@ -24,7 +24,7 @@ function LinksPage(props) {
     return (
         <ul className={"menu"} style={{background:color}}>
             <div className={"menu1"}>
-                <li className={"tastymenu"}><Link to={'/'} className={"tasty"}>Tasty</Link></li>
+                <li className={"tastymenu"}><Link to={'/'} reloadDocument className={"tasty"}>Tasty</Link></li>
             </div>
             <div className={"menu2"}>
                         <li className={"menuicon"}>
