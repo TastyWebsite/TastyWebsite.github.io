@@ -112,7 +112,7 @@
         height: 100vh;
         background-image: url('../images/1.jpg');
         background-position: center;
-        background-size: 180% 110%;
+        background-size: 100% 100%;
     }
     .img2{
         min-width: 100%;
