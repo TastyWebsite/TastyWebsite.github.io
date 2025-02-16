@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+  import React, {useState} from 'react';
 import LinksPage from "../LinksPage";
 import {Carousel} from "nuka-carousel";
 import Main from "../components/Main";
@@ -50,7 +50,7 @@ function Home(props) {
                         <input type={"text"} placeholder={"Name"} className={"in1"}/>
                         <input type={"text"} placeholder={"Phone"} className={"in1"}/>
                         <input type={"date"} placeholder={"Date"} className={"in1"}/>
-                        <select className={"in1"} onChange={() => handleTime("time")}>
+                        <select className={"in1"} aria-placeholder={"Time"} onChange={() => handleTime("time")}>
                             {data.map((item) => (
                                 <optgroup key={item.id}>
                                     <option className={"op"}>{item.op}</option>
