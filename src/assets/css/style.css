@@ -220,11 +220,14 @@
 }
 .bt2{
     padding: 13px 15px;
-    font-size: 15px;
-    border: 1px white solid;
+    font-size: 15px;    
+    background: white;
+    color: black;
+    border: 2px white solid;
 }
 .bt2:hover{
     background: none;
+    color: black;
     border: 2px solid white;
     cursor: pointer;
 }
