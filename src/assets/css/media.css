@@ -207,10 +207,13 @@
     .bt2{
         padding: 13px 15px;
         font-size: 15px;
-        border: 1px white solid;
+        background: white;
+        color: black;
+        border: 2px solid white;
     }
     .bt2:hover{
         background: none;
+        color: black;
         border: 2px solid white;
         cursor: pointer;
     }
