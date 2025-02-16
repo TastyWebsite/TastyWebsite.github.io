@@ -50,14 +50,14 @@ function Home(props) {
                         <input type={"text"} placeholder={"Name"} className={"in1"}/>
                         <input type={"text"} placeholder={"Phone"} className={"in1"}/>
                         <input type={"date"} placeholder={"Date"} className={"in1"}/>
-                        <select className={"in1"} aria-placeholder={"Time"} onChange={() => handleTime("time")}>
+                        <select className={"in1"} onChange={() => handleTime("time")}>
                             {data.map((item) => (
                                 <optgroup key={item.id}>
                                     <option className={"op"}>{item.op}</option>
                                 </optgroup>
                             ))}
                         </select>
-                        <select className={"in1"}>
+                        <select className={"in1"} style={{color:"black"}}>
                             <optgroup>
                                 <option>Person</option>
                                 <option>1</option>
