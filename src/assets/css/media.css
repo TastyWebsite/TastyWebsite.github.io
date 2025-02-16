@@ -10,7 +10,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        z-index: 4;
+        z-index: 999;
         background: rgb(64, 64, 68);
         position: fixed;
         transition: all 0.3s ease;
@@ -1065,7 +1065,7 @@
         align-items: center;
         justify-content: space-around;
         position: fixed;
-        z-index: 4;
+        z-index: 999;
         background: rgb(64, 64, 68);
         transition: all 0.3s ease;
 
@@ -2112,7 +2112,7 @@
         align-items: center;
         justify-content: space-around;
         position: fixed;
-        z-index: 4;
+        z-index: 999;
         background: none;
         transition: all 0.3s ease;
 
@@ -3030,7 +3030,7 @@
             align-items: center;
             justify-content: space-around;
             position: absolute;
-            z-index: 4;
+            z-index: 999;
             transition: all 0.3s ease;
 
         }
@@ -4091,7 +4091,7 @@
         align-items: center;
         justify-content: space-around;
         position: fixed;
-        z-index: 4;
+        z-index: 999;
         transition: all 0.3s ease;
 
     }
