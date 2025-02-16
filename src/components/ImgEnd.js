@@ -4,13 +4,13 @@ import {Link} from "react-router-dom";
 
 function ImgEnd(props) {
     const [img, setImg] = useState([]);
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(null);
 
-    const handleBlock = ()=>{
-        setShow(true);
+    const handleBlock = (id)=>{
+        setShow(id);
     }
     const handleNone = () =>{
-        setShow(false);
+        setShow(null);
     }
     useEffect(() => {
         setImg(imgEnd);
@@ -20,9 +20,9 @@ function ImgEnd(props) {
         <div>
             <div className={"pp1"}>
             {img.map((item) => (
-                <div key={item.id} className={"pp2"} onMouseOver={handleBlock} onMouseOut={handleNone}>
+                <div key={item.id} className={"pp2"} onMouseOver={()=>handleBlock(item.id)} onMouseOut={handleNone}>
                     <img src={item.img5} className={"pp01"}/>
-                    {show?(
+                    {show===item.id ?(
                         <div className={"instalink"}>
                                 <div className={"instaicon"}></div>
                         </div>
