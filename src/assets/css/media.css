@@ -360,8 +360,8 @@
         flex-wrap: wrap;
     }
     .food{
-        width: 90%;
-        height: 170px;
+        width: 94%;
+        height: 135px;
         background: white;
         box-shadow: 0px 3px 7px 1px #ababab;
         display: flex;
@@ -372,26 +372,30 @@
         background:rgb(255, 180, 0)
     }
     .img{
-        width: 65px;
-        height: 65px;
+        width: 60px;
+        height: 60px;
         border-radius: 100%;
         object-fit: cover;
     }
     .text{
-        width: 70%;
-        height: 170px;
+        width: 56%;
+        height: 135px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
     .p2{
-        font-size: 22px;
+        font-size: 18px;
+        font-family: "Roboto", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
     }
     .p3{
         color: gray;
     }
     .price1{
-        font-size: 30px;
+        font-size: 25px;
     }
 
 
