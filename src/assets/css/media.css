@@ -2177,7 +2177,7 @@
 
     .img2 {
         min-width: 130%;
-        height: 100vh;
+        height: 130vh;
         background-image: url('../images/2.jpg');
         background-size: 180% 110%;
         background-position: center;
